@@ -1,6 +1,6 @@
 # E-Commerce End-to-End Sales Performance and Operations
 
-📌 ## Project Overview
+📌 ##Project Overview
 
 Proyek ini bertujuan untuk menganalisis data transaksi e-commerce secara komprehensif untuk memahami pola perilaku pembelian pelanggan, mengevaluasi tren omset penjualan, serta memantau efisiensi operasional platform secara *end-to-end*. Analisis ini menggabungkan penggunaan **SQL** untuk tahapan audit dan pembersihan data (*data profiling & cleaning*) serta **Microsoft Excel** untuk eksplorasi data lanjutan dan visualisasi *dashboard* interaktif.
 
