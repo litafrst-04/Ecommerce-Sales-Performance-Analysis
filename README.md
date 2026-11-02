@@ -1,15 +1,15 @@
 # E-Commerce End-to-End Sales Performance and Operations
 
-📌 ##Project Overview
+## 📌 Project Overview
 
 Proyek ini bertujuan untuk menganalisis data transaksi e-commerce secara komprehensif untuk memahami pola perilaku pembelian pelanggan, mengevaluasi tren omset penjualan, serta memantau efisiensi operasional platform secara *end-to-end*. Analisis ini menggabungkan penggunaan **SQL** untuk tahapan audit dan pembersihan data (*data profiling & cleaning*) serta **Microsoft Excel** untuk eksplorasi data lanjutan dan visualisasi *dashboard* interaktif.
 
-🛠️ ## Tools Used
+## 🛠️ Tools Used
 
 - **SQL:** Digunakan untuk melakukan *data profiling* awal, mendeteksi anomali struktur, menyeragamkan format tanggal, serta membersihkan inkonsistensi data transaksi sebelum diolah.
 - **Microsoft Excel:** Digunakan untuk pengolahan data lanjutan melalui *Pivot Tables*, penyusunan *Pivot Charts*, penerapan *Slicers* dan *Timeline*, serta pembangunan *Interactive Sales Dashboard*.
 
-📋 ## Scope of Work & Data Lifecycle
+## 📋 Scope of Work & Data Lifecycle
 
 ### 1. Pemeriksaan Data (Data Profiling - SQL)
 
@@ -32,7 +32,7 @@ Menggunakan kueri SQL dan Pivot Tables untuk mengolah ringkasan statistik dasar,
 
 Menerjemahkan hasil analisis ke dalam bentuk visual yang interaktif dan dinamis menggunakan Pivot Charts, *Slicers* (Filter Status, Kategori, dan Metode Pembayaran), serta *Timeline* bulanan. Dashboard ini dirancang agar manajemen dapat dengan mudah membaca metrik bisnis dan menarik kesimpulan strategis secara cepat.
 
-❓ ## Business Questions & Insights
+## ❓ Business Questions & Insights
 
 - **Q1:** Kapan periode waktu atau bulan yang mencatatkan lonjakan omset dan volume pesanan tertinggi?
   - *Insight:* Performa penjualan menunjukkan tren fluktuatif dengan lonjakan omset signifikan pada periode tertentu, didukung oleh aktivitas transaksi yang terekam secara dinamis pada *Timeline* bulanan.
@@ -41,9 +41,9 @@ Menerjemahkan hasil analisis ke dalam bentuk visual yang interaktif dan dinamis 
 - **Q3:** Bagaimana pengaruh status pesanan terhadap kestabilan omset bersih penjualan?
   - *Insight:* Dari total keseluruhan transaksi, sebagian besar pesanan berhasil dikirim (*Delivered/Shipped*), sementara sisa status seperti *Cancelled* atau *Returned* dapat dipantau langsung dampaknya terhadap perolehan omset bersih melalui filter interaktif.
 
-📁 ## Project Files
+## 📁 Project Files
 
 - `Data Profiling Awal.sql`: Berisi kueri SQL untuk audit kualitas data mentah.
 - `Data Cleaning.sql`: Berisi kueri SQL untuk proses pembersihan dan transformasi data.
 - `Data Profiling Akhir.sql`: Berisi kueri SQL untuk verifikasi akhir struktur data.
-- `Ecommerce_Sales_Dashboard.xlsx`: File utama Excel yang mencakup data terproses, *Pivot Tables*, hingga *Interactive Sales & Performance Dashboard*.
+- `Dashboard_Portofolio.xlsx`: File utama Excel yang mencakup data terproses, *Pivot Tables*, hingga *Interactive Sales & Performance Dashboard*.
